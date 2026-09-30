@@ -90,8 +90,8 @@ export const projects: Project[] = [
     },
   },
   {
-    slug: "limbombo",
-    name: "Limbombo Imobiliária",
+    slug: "libombo",
+    name: "Libombo Imobiliária",
     kind: "Plataforma de venda de terrenos",
     role: "Projeto pessoal",
     summary:
@@ -102,7 +102,14 @@ export const projects: Project[] = [
       "Aplicação responsiva publicada online",
     ],
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Nodemailer", "Google Apps Script"],
-    panel: { background: "#2F4A37", ink: "#EADFC2" },
+    site: "https://libombo-imobiliaria.com",
+    panel: {
+      background: "#E3EBDC",
+      ink: "#2F4A37",
+      image: "/projects/libombo.png",
+      imageAlt: "Página inicial do site da Libombo Imobiliária",
+      imageKind: "screenshot",
+    },
   },
   {
     slug: "taskmate",
