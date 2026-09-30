@@ -1,0 +1,25 @@
+{
+  "name": "manuel-muchanga-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio de Manuel Muchanga, desenvolvedor de software web e mobile em Maputo.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
