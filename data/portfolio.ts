@@ -15,6 +15,7 @@ export type Project = {
   panel: {
     background: string;
     ink: string; // cor do nome do projeto no painel
+    title?: string; // texto grande do painel (por omissão, o nome do projeto)
     image?: string; // captura de ecrã ou logótipo em /public
     imageAlt?: string;
     imageKind?: "screenshot" | "logo";
@@ -79,7 +80,14 @@ export const projects: Project[] = [
     ],
     stack: ["React 19", "Vite", "Tailwind CSS 4", "React Router"],
     code: "https://github.com/ManuelMuchang/bssmoz.com",
-    panel: { background: "#27313C", ink: "#F2A900" },
+    panel: {
+      background: "#E8EEF8",
+      ink: "#123C8F",
+      title: "Better Steel Solutions",
+      image: "/projects/bss-logo.png",
+      imageAlt: "Logótipo da BSS",
+      imageKind: "logo",
+    },
   },
   {
     slug: "limbombo",

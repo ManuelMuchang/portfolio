@@ -25,7 +25,7 @@ function ProjectPanel({ project }: { project: Project }) {
             <p className="panel__kind">{project.kind}</p>
           </div>
           <p className="panel__name" aria-hidden="true">
-            {project.name}
+            {panel.title ?? project.name}
           </p>
         </>
       )}
