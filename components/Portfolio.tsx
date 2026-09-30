@@ -86,7 +86,7 @@ export default function Portfolio() {
           <nav aria-label="Secções">
             <ul className="topbar__nav">
               <li><a href="#projetos">Projetos</a></li>
-              <li><a href="#tecnologias">Tecnologias</a></li>
+              <li><a href="#tecnologias">Competências</a></li>
               <li><a href="#contacto">Contacto</a></li>
             </ul>
           </nav>
@@ -145,7 +145,7 @@ export default function Portfolio() {
 
         <section className="section wrap" id="tecnologias" aria-labelledby="tec-title">
           <h2 className="section__title" id="tec-title">
-            Tecnologias
+            Competências
           </h2>
           <div className="skills">
             {skills.map((group) => (
@@ -173,8 +173,8 @@ export default function Portfolio() {
               Contacto
             </h2>
             <p className="contact__lead">
-              Tem um projeto web ou mobile, ou quer falar sobre uma oportunidade? Envie um email ou
-              uma mensagem no WhatsApp.
+              Precisa de um site, de uma aplicação ou de suporte informático, ou quer falar sobre uma
+              oportunidade? Envie um email ou uma mensagem no WhatsApp.
             </p>
             <a className="contact__email" href={`mailto:${profile.email}`}>
               {profile.email}
